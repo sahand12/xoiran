@@ -6,13 +6,14 @@ const prizeSchemaOptions = {
 };
 
 const prizeSchema = new mongoose.Schema({
+  title: String,
   type: {
     $type: String,
     enum: ['cash', 'credit', 'other'],
   },
   description: String,
-  amount: {
-    value: Number,
+  value: {
+    amount: Number,
     currency: {
       $type: String,
       enum: ['IRR', 'IRT'],
@@ -23,6 +24,12 @@ const prizeSchema = new mongoose.Schema({
   tournamentId: {
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'Tournament',
+  },
+  t: {
+    fa: {
+      description: String,
+      title: String,
+    },
   },
 }, prizeSchemaOptions);
 

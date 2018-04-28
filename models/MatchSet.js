@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
-const setSchema = new mongoose.Schema({
+const matchSetSchemaOptions = {
+  typeKey: '$type',
+  timestamps: true,
+};
+const matchSetSchema = new mongoose.Schema({
   round: Number,
   matchId: {
     $type: mongoose.Schema.Types.ObjectId,
@@ -18,6 +22,6 @@ const setSchema = new mongoose.Schema({
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
   }
-}, {typeKey: '$type', timestamps: true});
+}, matchSetSchemaOptions);
 
-module.exports = setSchema;
+module.exports = matchSetSchema;

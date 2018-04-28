@@ -6,6 +6,13 @@ const tournamentSchemaOptions = {
 };
 const tournamentSchema = new mongoose.Schema({
   name: String,
+  description: String,
+  t: {
+    fa: {
+      name: String,
+      description: String,
+    }
+  },
   organizers: [{
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
@@ -16,7 +23,7 @@ const tournamentSchema = new mongoose.Schema({
   }],
   scheduleId: {
     $type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
+    ref: 'Schedule',
   },
   rules: {
     $type: mongoose.Schema.Types.ObjectId,

@@ -1,0 +1,442 @@
+[
+  {
+    "_id": "77c5c901-e5c7-4548-972a-ae0982f7bbf9",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "initial",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "ee792baa-6279-497c-b36b-b82a2ee40650",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "initial",
+    "round": 2,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "b2563fcb-6bd6-451f-9867-f24bb3246286",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "initial",
+    "round": 3,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "904b2b7e-790e-48b3-809d-126855456863",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "initial",
+    "round": 4,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "4e5ab113-c9c3-47bb-b352-d1436e2c5d4a",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "initial",
+    "round": 5,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "83430937-7a14-4ad4-889a-67ce674317e0",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "1/64",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "e4f7a61e-1498-457a-90e8-42f7bd67c2cf",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "1/32",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "37ef22c2-39c9-4f3e-a336-7914fb1c4fe2",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "1/16",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "34673051-f365-4ff8-b549-79bad75600ab",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "1/8",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "6024e726-ba50-40a1-981d-95c4979cd0e9",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "1/4",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "75164f18-8b39-40c8-ab8e-7346e53dee52",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "1/2",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "821ab89b-135b-4a04-bfd3-f6e19ff6b1bd",
+    "tournamentId": "f8b4aec8-04eb-4d43-b70f-fa080c232df9",
+    "type": "final",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "37998d87-9388-4be4-b382-cb7694e18d48",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "initial",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "8cf91890-4dab-497a-afe0-4f602266dddf",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "initial",
+    "round": 2,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "ac912b1c-95aa-44d5-9450-4fd1be9900af",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "initial",
+    "round": 3,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "afb1e9fd-c930-4cff-b797-9c28c0bff906",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "1/16",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "23ebfc71-70e3-4740-af34-29ae4f384244",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "1/8",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "69df379f-6df0-4a6d-9f0e-0df4952e2375",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "1/4",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "2e268b23-8d7e-485e-a3e7-413f2def98ec",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "1/2",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "fc6aeb5d-f452-4ac3-81e6-e139d627ac91",
+    "tournamentId": "09b0601c-0493-4fa2-bd44-0a452a90ea78",
+    "type": "final",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "0db53f6f-2b46-4b9d-a998-4327cc4ed681",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "950c4b48-3489-4b25-a868-4efe5459f609",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 2,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "83de8c4a-aed6-4197-b29f-1e5be0d8cd3d",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 3,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "3d6cc280-ae52-4d13-9cd4-aae08864eab3",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 4,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "e5b10e68-7ab0-47fd-9974-875ef974016c",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 5,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "9a4ee673-5bb6-4661-99a4-66c095e5ff77",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 6,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "1fb39c9a-18eb-40bd-aa26-cfad82220b79",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 7,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "5585ca07-9662-4b6c-a9f9-5be538caf003",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "initial",
+    "round": 8,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "c61830d0-bebb-4af6-9a2d-66f751c5e258",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "1/32",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "30489cec-28d9-4c6b-bc86-3d8c04301c0e",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "1/16",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "83fcb6fb-c341-49f4-b54c-3beab62b6ac1",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "1/8",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "65365a26-d0fc-4a95-a222-adc33e869dcb",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "1/4",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "7b7a37e9-51d8-4608-83aa-22db6c712db6",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "1/2",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "a34be399-56fb-44ae-8a81-d049fdd4fac1",
+    "tournamentId": "cd28ddd6-eb7a-4224-8e61-8f0452bad2fd",
+    "type": "final",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "ad5400d4-43a4-4079-90d5-916534d0607a",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "initial",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "a510b457-f41d-4a3e-b1a3-0f72447ab4b6",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "initial",
+    "round": 2,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "2038e9f6-a13e-4516-81f9-dfcf8667556b",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "initial",
+    "round": 3,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "d30d5e82-947c-49a5-b47d-6ce54190fad8",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "initial",
+    "round": 4,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "6e8c027a-8a40-44f8-8dd8-dc21c2f5d24b",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "1/8",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "46e81420-cf86-465f-be5b-ddc56f37caec",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "1/4",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "6e720703-ecf6-4f24-a8b1-a383c7aa6d4f",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "1/2",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "b1338b3c-4360-4d36-b776-539b243eddd6",
+    "tournamentId": "9fb72758-bb96-4959-992e-4974dd0e6b07",
+    "type": "final",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "b90d849b-f851-44d7-b8b8-87bef2475925",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "e1ac4a80-afe4-4ddc-9e15-412939449dca",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 2,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "a22d43f3-6c74-4e99-b4ba-8746dc4fb4cd",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 3,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "4d04dce6-30df-43ba-84c0-c09972f28816",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 4,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "a88cb6fd-357f-4fd2-814e-2b4766e4c6b9",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 5,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "40ed0c95-6a73-49a7-beae-22ce745a9aa8",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 6,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "a0665aec-dd8d-4e19-a5af-34eff73a533b",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "initial",
+    "round": 7,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "8da8a96b-ec1b-4ce3-a3d9-83331618ff29",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "1/32",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "1eda5aab-4ef0-4cb6-b7f7-c966eb0ddd11",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "1/16",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "f476c28e-96f1-45dd-8bd7-e53867892c79",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "1/8",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "77ca752a-e7c6-4cd8-959a-911abeb6ed94",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "1/4",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "ddcb81f2-68cc-49fe-8854-4bd16902d2ef",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "1/2",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  },
+  {
+    "_id": "2cb2b185-7d55-4218-9ca7-3dd4ed149a89",
+    "tournamentId": "7d8849bb-fbf5-4f38-bd62-ecfed97cb994",
+    "type": "final",
+    "round": 1,
+    "scheduleId": "",
+    "state": "scheduled"
+  }
+]

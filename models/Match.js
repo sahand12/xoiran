@@ -10,7 +10,7 @@ const matchSchema = new mongoose.Schema({
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'Game',
   },
-  playerIds: [{
+  playersId: [{
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
   }],
@@ -27,9 +27,11 @@ const matchSchema = new mongoose.Schema({
     ref: 'Set',
   }],
   setRounds: Number,
-  scheduledTime: Date,
-  startTime: Date,
-  endTime: Date,
+
+  scheduleId: {
+    $type: mongoose.Schema.Types.ObjectId,
+    ref: 'Schedule',
+  },
 
   state: {
     $type: String,

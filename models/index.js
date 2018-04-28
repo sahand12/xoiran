@@ -5,10 +5,10 @@ mongoose.Promise = Promise;
 const MODEL_NAMES = [
   'Game',
   'Match',
+  'MatchSet',
   'Prize',
   'RankingTable',
   'Schedule',
-  'Set',
   'Tournament',
   'TournamentPhase',
   'TournamentPhaseMatchPair',

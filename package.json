@@ -7,5 +7,8 @@
     "bluebird": "^3.5.1",
     "express": "^4.16.3",
     "mongoose": "^5.0.16"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
   }
 }

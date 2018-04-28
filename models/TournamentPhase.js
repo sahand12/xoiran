@@ -17,6 +17,10 @@ const tournamentPhaseSchema = new mongoose.Schema({
   scheduleId: {
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'Schedule',
+  },
+  state: {
+    $type: String,
+    enum: ['cancelled', 'scheduled', 'playing', 'finished'],
   }
 }, tournamentPhaseSchemaOptions);
 
