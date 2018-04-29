@@ -20,7 +20,7 @@ function createPrize({type, title, isMonetary, value, tid, titleFa, descFa}) {
     },
   };
 }
-const tids = {
+const tournamentPrizes = {
   'f8b4aec8-04eb-4d43-b70f-fa080c232df9': [
     {
       title: '5 million Toman',
@@ -440,13 +440,3 @@ const tids = {
     },
   ],
 };
-const firstTournamentPrizes = [
-  createPrize({
-    tid,
-    type: 'cash',
-    isMonetary: true,
-    value: {
-      amount: ''
-    }
-  }),
-];

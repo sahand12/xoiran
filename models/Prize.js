@@ -16,7 +16,7 @@ const prizeSchema = new mongoose.Schema({
     amount: Number,
     currency: {
       $type: String,
-      enum: ['IRR', 'IRT'],
+      enum: ['IRR', 'IRT', 'USD', 'EUR'],
     },
     precision: Number,
   },
