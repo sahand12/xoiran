@@ -1,0 +1,132 @@
+.xo__container {
+  background-color: rgb(244, 244, 239);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 40px;
+}
+.xo__box {
+  background-color: white;
+  box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
+  margin: 0 auto;
+  max-width: 620px;
+  border: 1px solid #dbe2e8;
+  text-align: center;
+}
+.xo__form__container {
+  background-color: #fff;
+  padding: 60px;
+}
+.xo-signup__page__title {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  padding: 20px 0 10px 0;
+}
+.xo-signup__form__title {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.xo-signup__form__desc {
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.xo-signup__form {
+  margin-top: 30px;
+}
+.xo-input {
+  height: 44px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  color: #2e3d49;
+
+  &::placeholder {
+    color: lighten(#2e3d49, 20%);
+    direction: rtl;
+  }
+}
+.xo-input__control {
+  margin-top: 20px;
+}
+.xo-signup__button__container {
+  margin-top: 30px;
+}
+.xo-signup__form__button {
+  box-shadow: -12px 15px 20px rgba(0, 0, 0, 0.1);
+}
+.xo-signup__form__divider {
+  background-color: rgb(219, 225, 232);
+  margin: 30px 0;
+}
+.xo-signup__page__socialHelp {
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #757c81;
+}
+.xo-icon__google {
+  background-image: url("/svg/google.svg");
+}
+.xo-icon__instagram {
+  text-align: left;
+  background: url("/svg/instagram.svg") no-repeat;
+}
+.xo-button {
+  cursor: pointer;
+  background: white;
+  color: #757c81;
+  border: 1px solid #dbe2e8 !important;
+  box-shadow: none;
+  padding: 0.75em 1em;
+  min-width: 8em;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.165em;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  max-width: 100%;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+  transition: 0.2s box-shadow ease-in-out;
+
+  &:hover {
+    box-shadow: -5px 4px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+.xo-button + .xo-button {
+  margin-right: 20px;
+}
+.xo-button__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xo-button__label__img {
+  width: 24px;
+  margin-right: 15px;
+}
+.xo-button__container {
+  margin-bottom: 20px;
+  flex-basis: 48%;
+}
+
+.xo-signup__page__socialButtonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

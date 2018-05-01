@@ -1,0 +1,12 @@
+@import 'reset.css';
+@import 'vars.scss';
+@import 'base.scss';
+@import 'generic.scss';
+@import 'components/index.scss';
+@import 'pages/index.scss';
+*, html {
+  box-sizing: border-box;
+}
+button, input, textarea, select, option {
+  font-family: inherit;
+}

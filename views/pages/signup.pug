@@ -1,0 +1,31 @@
+- var locale = 'fa';
+- var t = {fa: {}, en: {}};
+- t.en = {title: 'Sign Up'};
+- t.fa = {title: 'ثبت‌نام', formTitle: 'حساب کاربری خود را بسازید', formDesc: 'حساب کاربری، راه دسترسی شما به همه چیز در xoiran است. بازیها، تورنمنت‌ها، جدول زمان‌بندی بازیهای آینده و خیلی چیزهای دیگه!', nickname: 'اسم بازیکن', email: 'ایمیل', pass: 'رمز عبور', confirmPass: 'تکرار رمز عبور', mobNum: 'شماره موبایل', terms: 'با ایجاد حساب کاربری، شما با شرایط استفاده از این سرویس و قانون حفظ حریم خصوصی موافقت میکنید', formBtn: 'ثبت نام', socialSignupDesc: 'یا با کمک یکی از سرویس‌های پایین ثبت‌نام کنید'};
+
+doctype html
+html(dir='rtl')
+  include ../includes/head
+  body
+    include ../includes/components/brand-header
+    section.xo__container
+      section.xo__box
+        h2.xo-signup__page__title #{t[locale].title}
+        div.xo__form__container
+          h2.xo-signup__form__title #{t[locale].formTitle}
+          p.xo-signup__form__desc #{t[locale].formDesc}
+          include ../includes/forms/signup-form
+          hr.xo-signup__form__divider
+          p.xo-signup__page__socialHelp #{t[locale].socialSignupDesc}
+
+          .xo-signup__page__socialButtonsContainer
+            .xo-button__container
+              button.xo-button(dir='ltr')
+                div.xo-button__label
+                  img.xo-button__label__img(src='/svg/google.svg')
+                  | google
+            .xo-button__container
+              button.xo-button(dir='ltr')
+                div.xo-button__label
+                  img.xo-button__label__img(src='/svg/instagram-tile.svg')
+                  | instagram

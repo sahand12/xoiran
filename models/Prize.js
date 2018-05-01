@@ -25,6 +25,7 @@ const prizeSchema = new mongoose.Schema({
     $type: mongoose.Schema.Types.ObjectId,
     ref: 'Tournament',
   },
+  rank: Number,
   t: {
     fa: {
       description: String,

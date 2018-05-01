@@ -1,0 +1,13 @@
+- var locale = 'fa';
+- var t = {fa: {}, en: {}};
+- t.en = {title: 'Create a New Game', name: 'Game Name'};
+- t.fa = {title: 'ایجاد بازی جدید', nameEn: 'اسم بازی (انگلیسی)', nameFa: 'اسم بازی (فارسی)', categories: 'دسته‌ها', numPlayers: 'تعداد بازیکنان', createGame: 'ایجاد بازی جدید', numPlayersHelp: 'اعداد انگلیسی وارد شود'};
+
+doctype html
+html(dir='rtl')
+  include ../includes/head
+  body
+    section.section
+      div.container
+        h2.is-size-3 #{t.fa.title}
+        include ../includes/forms/create-game-form

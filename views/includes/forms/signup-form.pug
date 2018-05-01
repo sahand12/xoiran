@@ -1,0 +1,22 @@
+form.xo-signup__form
+  div.field
+    div.control.xo-input__control
+      input.input.xo-input(placeholder=t[locale].nickname + '*')
+
+  div.field(dir='ltr')
+    div.control.xo-input__control
+      input.input.xo-input(placeholder=t[locale].email + '*')
+
+  div.field(dir='ltr')
+    div.control.xo-input__control
+      input.input.xo-input(placeholder=t[locale].pass + '*' type='password')
+
+  div.field(dir='ltr')
+    div.control.xo-input__control
+      input.input.xo-input(placeholder=t[locale].confirmPass + '*' type='password')
+
+  p.xo-signup__form__desc #{t[locale].terms}
+
+  div.field.xo-signup__button__container
+    div.control
+      button.button.is-primary.is-fullwidth.is-medium.xo-signup__form__button(type='submit') #{t[locale].formBtn}

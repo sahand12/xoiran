@@ -5,10 +5,18 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
-    "mongoose": "^5.0.16"
+    "mongoose": "^5.0.16",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
-    "faker": "^4.1.0"
+    "browser-sync": "^2.24.1",
+    "faker": "^4.1.0",
+    "fast-glob": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }

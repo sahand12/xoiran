@@ -1,0 +1,29 @@
+div.section.xo-createGameForm
+  form.container
+    div.field
+      label.label #{t.fa.nameFa}:
+      div.control
+        input.input(name='gameNameFa')
+
+    div.field
+      label.label #{t.fa.nameEn}:
+      div.control(dir='ltr')
+        input.input(name='gameNameEn')
+
+    div.field.is-clearfix
+      label.label #{t.fa.numPlayers}:
+      div.control(dir='ltr')
+        input.input(name='numberOfPlayers' type='number' min='1')
+        p.help.is-pulled-right #{t.fa.numPlayersHelp}
+
+    div.field.is-clearfix
+      label.label #{t.fa.categories}:
+      div.control
+        div.select.is-pulled-right
+          select
+            each val in categories
+              option #{val}
+
+    div.field
+      div.control
+        button.button.is-success(type='submit') #{t[locale].createGame}

@@ -1,8 +1,16 @@
 const mongoose = require('mongoose');
-const {Mixed} = mongoose.Schema.Types;
+const {Mixed, ObjectId} = mongoose.Schema.Types;
 
+const gameSchemaOptions = {
+  timestamps: true,
+  typeKey: '$type',
+};
 const gameSchema = new mongoose.Schema({
   name: String,
+  createdBy: {
+    $type: ObjectId,
+    ref: 'User',
+  },
   possibleNumberOfPlayers: [{
     $type: Number,
   }],
@@ -11,7 +19,7 @@ const gameSchema = new mongoose.Schema({
     value: Mixed,
   }],
   categories: [String],
-  family: String,
+  // family: String,
   t: {
     fa: {
       name: String,
@@ -21,6 +29,6 @@ const gameSchema = new mongoose.Schema({
       }],
     },
   },
-}, {timestamps: true});
+}, gameSchemaOptions);
 
 module.exports = gameSchema;

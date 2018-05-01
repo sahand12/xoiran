@@ -1,0 +1,13 @@
+- var locale = 'fa';
+- var t = {fa: {}, en: {}};
+- t.en = {title: 'Login'};
+- t.fa = {title: 'ورود'}
+
+doctype html
+html(dir='rtl')
+  include ../includes/head
+  body
+    section.section
+      div.container
+        h2.is-size-3 #{t[locale].title}
+        include ../includes/forms/login-form
